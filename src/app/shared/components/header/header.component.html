@@ -1,0 +1,16 @@
+<nav>
+  <div class="container">
+    <div class="content">
+<h2 class="logo"><span class="text-info">D</span>G<span class="text-info">.</span>Stor<span class="text-info">e</span></h2>
+      <ul>
+        <li routerLink="/products">Products</li>
+         <div class="spacer"></div>
+        <li routerLink="/cart">Cart</li>
+      <div class="toggle-theme" (click)="toggleTheme()">
+  <i class="material-icons">{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</i>
+
+</div>
+      </ul>
+    </div>
+  </div>
+</nav>
